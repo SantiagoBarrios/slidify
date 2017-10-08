@@ -262,5 +262,6 @@ Other Examples
 ![imagen](http://www.callcenternews.com.ar/images/joomlart/cat-blue/gracias2016.jpg)                 
 
 ```{r}
-publish(user = "SantiagoBarrios", repo = "slidify")
+ publish_github(repo="slidify", username = getOption("SantiagoBarrios"))
+
 ```

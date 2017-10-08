@@ -39,18 +39,9 @@ Other Examples
 
 
 ```r
-publish(user = "SantiagoBarrios", repo = "slidify")
+publish(title = 'slidify', 'slidify.html', host = 'github')
 ```
 
 ```
-## Publishing deck to SantiagoBarrios/slidify
-```
-
-```
-## Warning: comando ejecutado 'git push git@github.com:SantiagoBarrios/slidify
-## gh-pages' tiene estatus 1
-```
-
-```
-## You can now view your slide deck at http://SantiagoBarrios.github.com/slidify
+## Error in publish_deck(...): unused argument (title = "slidify")
 ```
