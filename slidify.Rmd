@@ -263,6 +263,6 @@ Other Examples
 
 ```{r}
  
-publish(user = "SantiagoBarrios", repo = "slidify", host = 'github')
+publish(user = "SantiagoBarrios", repo = "slidify")
 
 ```

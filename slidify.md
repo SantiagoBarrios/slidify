@@ -39,13 +39,9 @@ Other Examples
 
 
 ```r
- publish_github(repo="slidify", username = getOption("SantiagoBarrios"))
+publish(user = "SantiagoBarrios", repo = "slidify", host = 'https://github.com/SantiagoBarrios/slidify.git')
 ```
 
 ```
-## Publishing deck to /slidify
-```
-
-```
-## Error in system(command, as.integer(flag), f, stdout, stderr): string de caracteres esperado como primer argumento
+## Error in publish_deck(...): no se pudo encontrar la función "publish_deck"
 ```
