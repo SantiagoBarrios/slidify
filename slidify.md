@@ -39,9 +39,18 @@ Other Examples
 
 
 ```r
-publish(user = "SantiagoBarrios", repo = "slidify", host = 'https://github.com/SantiagoBarrios/slidify.git')
+publish(user = "SantiagoBarrios", repo = "slidify")
 ```
 
 ```
-## Error in publish_deck(...): no se pudo encontrar la función "publish_deck"
+## Publishing deck to SantiagoBarrios/slidify
+```
+
+```
+## Warning: comando ejecutado 'git push git@github.com:SantiagoBarrios/slidify
+## gh-pages' tiene estatus 128
+```
+
+```
+## You can now view your slide deck at http://SantiagoBarrios.github.com/slidify
 ```
