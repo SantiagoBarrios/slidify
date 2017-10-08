@@ -39,11 +39,7 @@ Other Examples
 
 
 ```r
-publish_github(user = "SantiagoBarrios", repo = "slidify")
-```
-
-```
-## Adding .nojekyll to your repo...
+publish(user = "SantiagoBarrios", repo = "slidify")
 ```
 
 ```
