@@ -39,9 +39,13 @@ Other Examples
 
 
 ```r
-publish(title = 'slidify', 'slidify.html', host = 'github')
+ publish_github(repo="slidify", username = getOption("SantiagoBarrios"))
 ```
 
 ```
-## Error in publish_deck(...): unused argument (title = "slidify")
+## Publishing deck to /slidify
+```
+
+```
+## Error in system(command, as.integer(flag), f, stdout, stderr): string de caracteres esperado como primer argumento
 ```
