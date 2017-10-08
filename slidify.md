@@ -32,12 +32,29 @@ Other Examples
 | Text Labels | http://www.r-graph-gallery.com/275-add-text-labels-with-ggplot2/|
 | Jitter | http://www.r-graph-gallery.com/47-groups-distribution-with-ggplot2/ |
 
----{r echo=F,message = F, warning=FALSE}
+---
 
 
 ![imagen](http://www.callcenternews.com.ar/images/joomlart/cat-blue/gracias2016.jpg)                 
 
 
+```r
+publish_github(user = "SantiagoBarrios", repo = "slidify")
 ```
-## [1] FALSE
+
+```
+## Adding .nojekyll to your repo...
+```
+
+```
+## Publishing deck to SantiagoBarrios/slidify
+```
+
+```
+## Warning: comando ejecutado 'git push git@github.com:SantiagoBarrios/slidify
+## gh-pages' tiene estatus 1
+```
+
+```
+## You can now view your slide deck at http://SantiagoBarrios.github.com/slidify
 ```
